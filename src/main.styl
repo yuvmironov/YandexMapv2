@@ -1,0 +1,70 @@
+@import "../libs/Accordeon/MFSAccordeon"
+*
+	margin 0
+	padding 0
+[class*="ymaps-2"][class*="-ground-pane"] {
+	-webkit-filter saturate(0.5) contrast(95%) brightness(105%)
+}
+
+.MapWrap
+	display flex
+	justify-content space-between
+	height 90vh
+#Map, #DescMap
+	height 100%
+#Map
+	width 40%
+#DescMap
+	width 60%
+
+
+
+.Brand
+	padding 10px
+	display flex
+	align-items center
+	&-Logo
+		margin-right: 50px
+	&-Name
+		font-family Rubik
+		font-weight 500
+		font-size 30px
+		letter-spacing 0.05em
+		text-transform uppercase
+		color #C62828
+	&-PhoneSch
+		display flex
+	&-Schedule, &-Phone
+		font-family Roboto
+		font-size 14px
+		color #4F4F4F
+	&-Phone
+		margin-right: 30px
+.Brands
+	padding 10px 0
+	&-Element
+		padding 10px 0 10px 10px
+		&:nth-child(odd)
+			background-color #f2f2f2
+	&-Info
+		display flex
+	&-Address
+		cursor pointer
+		font-family Roboto
+		font-size 14px
+		color #4F4F4F
+	&-Schedule, &-Phone
+		font-family Roboto
+		font-size 11px
+		color #4F4F4F
+		&_Wrap
+			margin-right 50px
+			font-family Roboto
+			font-size 11px
+			color #BDBDBD
+
+
+#DescMap
+	display flex
+	flex-direction column-reverse
+	justify-content flex-end

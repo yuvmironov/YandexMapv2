@@ -1,0 +1,49 @@
+{
+	"city": "Москва",
+	"brandName": "Доброта",
+	"brandPhone": "8 (800) 250-51-43",
+	"brandSchedule": " пн-пт с 9:00 до 17:30 в будние дни",
+	"brandLogo": "https://www.dobrota.ru/phpshop/templates/dobrota/images/dobrota.gif",
+	"brandData": [
+		{
+			"address" : "Ул. Вешняковская, 22А, ТЦ",
+			"coordinates" : "55.720372,37.822074",
+			"primoryPhone" : "+7 (495) 125-43-78 доб. 183",
+			"primoryShedule" : "с 10:00 до 21:00 без выходных",
+			"additionalInformation" : [
+				{
+					"addName" : "",
+					"addPhone" : "",
+					"addShedule" : "",
+					"addEmail" : ""
+				}
+			],
+			"howToGetThere" : [
+				{
+					"howMethod" : "",
+					"howDesc" : ""
+				}
+			]
+		},
+		{
+			"address" : "Пролетарский проспект д. 20, к 1.",
+			"coordinates" : "55.633612,37.657377",
+			"primoryPhone" : "+7 (495) 125-43-78 доб. 193",
+			"primoryShedule" : "с 10:00 до 21:00 без выходных",
+			"additionalInformation" : [
+				{
+					"addName" : "",
+					"addPhone" : "",
+					"addShedule" : "",
+					"addEmail" : ""
+				}
+			],
+			"howToGetThere" : [
+				{
+					"howMethod" : "",
+					"howDesc" : ""
+				}
+			]
+		}
+	]
+}
