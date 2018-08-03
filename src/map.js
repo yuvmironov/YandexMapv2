@@ -157,8 +157,8 @@ function createBrandAddress(data, brandName, collect) {
 		{
 			iconLayout: 'default#image',
 			iconImageHref: 'Item.svg',
-			iconImageSize: [15,15],
-			iconImageOffset: [-7,-7],
+			iconImageSize: [35,35],
+			iconImageOffset: [-17,-17],
 			hideIconOnBalloonOpen: false
 		}
 	);
@@ -212,7 +212,7 @@ function createMap(){
 				);
 				//Получаем элемент для вставки данных по бренду
 				const descMap = document.getElementById('DescMap');
-				//Создаем вставляемый элемент с информацией по бренду
+				//
 				const mapInfo = createHeader(dataMap, myMap);
 				//Добавляем элемент в DOM
 				descMap.appendChild(mapInfo);
