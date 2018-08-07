@@ -1,11 +1,12 @@
-# Карты Яндекса вариант 2
+# Карты Яндекса ver 1.0
 ## Данные по всем адресам одного бренда
 Работа через API
 ## Для начала работы
 1. Запустить в консоли команду `npm i`.
 2. Запустить в консоли команду `bower i`
-3. Файл `libs/Accordeon/MFSAccordeon.css` переименовать в `libs/Accordeon/MFSAccordeon.styl` 
-4. Запустить в браузере файл `index.html` из папки `relise`
+3. Файл `libs/Accordeon/MFSAccordeon.css` переименовать в `libs/Accordeon/MFSAccordeon.styl`
+4. Запустить в консоли команду `gulp` 
+5. Запустить в браузере файл `index.html` из папки `relise`
 
 ## Описание рабочих файлов
 1. `index.pug` - Файл с шаблоном 

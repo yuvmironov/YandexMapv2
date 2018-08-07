@@ -27,6 +27,22 @@ function scheduleCreate (schedule, className) {
 }
 
 /**
+ * Функция для создания ссылки
+ * @param className - класс
+ * @param hrefLink - значение атирибута href
+ * @param inner - Текст для отображения
+ * @return {HTMLAnchorElement} - готовый элемент ссылки для вставки
+ */
+function createLink(className, hrefLink, inner) {
+	const link = document.createElement('a');
+	const text = document.createTextNode(inner);
+	link.className = className;
+	link.href = hrefLink;
+	link.appendChild(text);
+	return link;
+}
+
+/**
  * Функция для создания элемента карты с одним классом
  * @param teg - Необходимый тег
  * @param className - Имя класса
@@ -108,7 +124,8 @@ function createBrandAddress(data, brandName, collect) {
 	const singleBrand = createElementSingleClass('div', 'Brands-Element');
 	
 	//Создаем элемент с адресом магазина
-	const address = createElementSingleClass('p', 'Brands-Address', data.address);
+	const address = createLink('Brands-Address', '#', data.address);
+	//const address = createElementSingleClass('p', 'Brands-Address', data.address);
 	
 	/** --- Создаем элемент с телефонами магазина --- **/
 	//Создаем обёртку для телефонов магазина
